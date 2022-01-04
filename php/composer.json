@@ -1,0 +1,20 @@
+{
+    "name": "minhhiep/php",
+    "authors": [
+        {
+            "name": "Minh Hiệp",
+            "email": "chuminhhiep0211@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^8.62",
+        "slim/slim": "^4.8",
+        "illuminate/config": "^8.62",
+        "bramus/router": "~1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
